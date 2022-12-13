@@ -11,29 +11,43 @@
     <script src="js.js"></script>
 </head>
 <body>
-    <form onsubmit="return(checkAnswers())">
-        <h2>F1 kérdések</h2>
-
-        <p>Melyik évben vezették be a halo használatát?</p>
-        <input type="text" id="haloYear">
-
-        <p>Hány világbajnoki címe van Sebastian Vettelnek?</p>
-        <input type="text" id="sebWDC">
-
-        <p>Jelenleg 3 száraz gumikeverék használható.</p>
-        <input type="radio" id="tyreT" name="tyre_ans" value="true">
-        <label for="true">Igaz</label><br>
-        <input type="radio" id="tyreF" name="tyre_ans" value="false">
-        <label for="false">Hamis</label><br>
-
-        <h2>Foci kérdések</h2>
-        <p> Ki a francia válogatott gólkirálya?</p>
-        <input type="text" id= "kerdes1">
-        <p> Ki az argentin válogatott gólkirálya?</p>
-        <input type="text" id= "kerdes2">
-        <p> Ki a brazil válogatott gólkirálya?</p>
-        <input type="text" id= "kerdes3">
-        <input type="submit" value="Kiír">
-    </form>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <form onsubmit="return(checkAnswers())">
+                    <h2>F1 kérdések</h2>
+            
+                    <div class="form-group">
+                        <label for="haloYear">Melyik évben vezették be a halo használatát?</label>
+                        <input type="text" id="haloYear" name="haloYear" class="form-control">
+                    </div>
+            
+                    <div class="form-group">
+                        <label for="sebWDC">Hány világbajnoki címe van Sebastian Vettelnek?</label>
+                        <input type="text" id="sebWDC" name="sebWDC" class="form-control">
+                    </div>
+            
+                    <div class="form-group">
+                        <p>Jelenleg 3 száraz gumikeverék használható.</p>
+                        <input type="radio" id="tyreT" name="tyre_ans" value="true">
+                        <label for="true">Igaz</label><br>
+                        <input type="radio" id="tyreF" name="tyre_ans" value="false">
+                        <label for="false">Hamis</label><br>
+                    </div>
+            
+                    <h2>Foci kérdések</h2>
+                    <p> Ki a francia válogatott gólkirálya?</p>
+                    <input type="text" id= "kerdes1">
+                    <p> Ki az argentin válogatott gólkirálya?</p>
+                    <input type="text" id= "kerdes2">
+                    <p> Ki a brazil válogatott gólkirálya?</p>
+                    <input type="text" id= "kerdes3">
+                    <input type="submit" value="Kiír">
+                </form>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div>
 </body>
 </html>
