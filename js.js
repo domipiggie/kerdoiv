@@ -9,5 +9,11 @@ function checkAnswers(){
         return false;
     }
 
-    
+    let pontszam = 0;
+
+    if (haloYear=="2018"){pontszam++}
+    if (sebWDCcount=="4"){pontszam++}
+    if (tyreTrue){pontszam++}
+
+    alert(pontszam);
 }
