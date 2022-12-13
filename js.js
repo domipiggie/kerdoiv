@@ -18,6 +18,9 @@ function checkAnswers(){
     if (haloYear=="2018"){pontszam++}
     if (sebWDCcount=="4"){pontszam++}
     if (tyreTrue){pontszam++}
+    if (kerdes1.toLowerCase()=="oliver giroud" || kerdes1.toLowerCase()== "giroud"){pontszam++}
+    if (kerdes2.toLowerCase()=="lionel messi" || kerdes2.toLowerCase()== "messi"){pontszam++}
+    if (kerdes3.toLowerCase()=="pelé"){pontszam++}
 
     alert(pontszam);
 }
