@@ -9,7 +9,7 @@
     <script src="js.js"></script>
 </head>
 <body>
-    <form onsubmit="checkAnswers()">
+    <form onsubmit="return(checkAnswers())">
         <h2>F1 kérdések</h2>
 
         <p>Melyik évben vezették be a halo használatát?</p>
@@ -19,9 +19,9 @@
         <input type="text" id="sebWDC">
 
         <p>Jelenleg 3 száraz gumikeverék használható.</p>
-        <input type="radio" id="tyreT" name="fav_language" value="true">
+        <input type="radio" id="tyreT" name="tyre_ans" value="true">
         <label for="true">Igaz</label><br>
-        <input type="radio" id="tyreF" name="fav_language" value="false">
+        <input type="radio" id="tyreF" name="tyre_ans" value="false">
         <label for="false">Hamis</label><br>
 
         <h2>Foci kérdések</h2>
