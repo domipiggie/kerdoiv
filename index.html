@@ -7,8 +7,20 @@
     <title>Kérdőív</title>
 </head>
 <body>
-    <form>
-        
+    <form onsubmit="checkAnswers()">
+        <h2>F1 kérdések</h2>
+
+        <p>Melyik évben vezették be a halo használatát?</p>
+        <input type="text" id="haloYear">
+
+        <p>Hány világbajnoki címe van Sebastian Vettelnek?</p>
+        <input type="text" id="sebWDC">
+
+        <p>Jelenleg 3 száraz gumikeverék használható.</p>
+        <input type="radio" id="tyreT" name="fav_language" value="true">
+        <label for="true">Igaz</label><br>
+        <input type="radio" id="tyreF" name="fav_language" value="false">
+        <label for="false">Hamis</label><br>
     </form>
 </body>
 </html>
