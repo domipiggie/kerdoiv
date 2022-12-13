@@ -22,5 +22,5 @@ function checkAnswers(){
     if (kerdes2.toLowerCase()=="lionel messi" || kerdes2.toLowerCase()== "messi"){pontszam++}
     if (kerdes3.toLowerCase()=="pelé"){pontszam++}
 
-    alert(pontszam);
+    alert("Pontszámod: " + pontszam + "/6");
 }
